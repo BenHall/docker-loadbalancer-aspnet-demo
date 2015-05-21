@@ -1,11 +1,11 @@
 app:
-  image: benhall/nancy-demo
+  image: benhall/aspnet:beta5
   environment:
     SERVICE_80_NAME: http
     SERVICE_NAME: app
     SERVICE_TAGS: production
   ports:
-  - "8080"
+  - "5000"
 
 lb:
   build: ./
